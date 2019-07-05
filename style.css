@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    margin-top: -20px;
+    padding: 0;
+    font-family: "Raleway";
+}
+
+.first-page {
+    /*   width: 1500px; */
+       height: 740px;
+       background-color: #d1d1d1;
+   }
+
+.menu {
+    font-size: 22px;
+    letter-spacing: -2px;
+    line-height: 55px;
+    color: #575757;
+    font-weight: 300;
+    padding-top: 60px;
+    padding-left: 200px;
+}
