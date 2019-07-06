@@ -1,22 +1,156 @@
-body {
-    margin: 0;
-    margin-top: -20px;
-    padding: 0;
+.first-page {
+    height: 740px;
+    background-color: #d1d1d1;
     font-family: "Raleway";
 }
 
-.first-page {
-    /*   width: 1500px; */
-       height: 740px;
-       background-color: #d1d1d1;
-   }
-
-.menu {
+.first-page-header {
+    text-align: justify;
+    color: #575757;
+    line-height: 55px;    
+}
+.company-name {
+    display: inline-block;
     font-size: 22px;
     letter-spacing: -2px;
-    line-height: 55px;
-    color: #575757;
     font-weight: 300;
+    margin: 60px 0 0 200px;
+    padding-right: 40px;
+    border-right: 1px solid #575757;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: right; 
+    margin: 0 25px; 
     padding-top: 60px;
-    padding-left: 200px;
+    text-decoration: none;
+    color: #575757;
+}
+
+.social-nets {
+    
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #575757;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    margin: 60px 200px 0 0;
+    
+}
+
+a.imageforlink {
+    display: block; 
+    background-image: url("images/social nets circle.png");
+    background-repeat: no-repeat;
+    padding: 0 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-page {
+    margin: 180px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.main-page h1 {
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    color: #454546;
+    font-weight: 300;
+}
+
+.main-page h2 {
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #7c7c7c;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    margin: 0 25%;
+    background-color: white;
+}
+
+input {
+    margin: 10px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    border: none;
+    text-align: center;
+    color: #eedddd 
+}
+
+.subscribe-button {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #ffffff;
+    background-image: linear-gradient(0deg, #2a4b53 0%, #416b74 100%);
+}
+
+.second-page {
+    height: 400px;
+    width: 85%;
+    background-color: white;
+    display: flex;
+    direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.second-page h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+    color: #454546;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.second-page p {
+    width: 326px;
+    height: 90px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #727272;
+}
+
+.mobile-friendly {
+    justify-content: center;
+    width: 300px;
+    margin: 0 80px;
+}
+
+.retina-ready {
+    justify-content: center;
+    width: 300px;
+    margin: 0 80px;
+}
+
+.well-documented {
+    justify-content: center;
+    width: 300px;
+    margin: 0 80px;
 }
